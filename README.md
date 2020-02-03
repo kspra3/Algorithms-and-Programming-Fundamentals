@@ -6,6 +6,8 @@ Program to add two numbers and print them.
 #### DegToRad.py
 Convert a decimal value from Degrees to Radians. 
 Print out cosine of this angle.
+#### TempConv.py
+The conversion from F degrees Fahrenheit to C degrees Celsius.
 
 ## Workshop 2
 
