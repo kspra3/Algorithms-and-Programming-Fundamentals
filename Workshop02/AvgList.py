@@ -12,8 +12,8 @@ numOfItems = int(input("Please input number of items: "))
 while counter < numOfItems:
     intList = int(input("Please give me an integer: "))
     # Obtaining the sum of list.
-    total = total + intList
-    counter = counter + 1
+    total += intList
+    counter += 1
 #Obtaining the average of numbers in the list.
 average = total / numOfItems
 
