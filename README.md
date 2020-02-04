@@ -27,8 +27,6 @@ Enter some numbers: 1.5 6 7.5 2
 Enter some numbers: 0
 [[1, 2, 3, 4, 5], [5, 6, 7], [1, 1, 1, 1], [1.5, 6, 7.5, 2], [0]]
 ```
-#### UsingLists.py
-Write a program which simulates the rolling of 1000 dice, by generating a number from 1 to 6, and stores these numbers in a list. Calculate the arithmetic mean of this list.
 
 ## Workshop 4
 
