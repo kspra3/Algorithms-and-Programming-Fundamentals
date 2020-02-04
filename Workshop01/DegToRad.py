@@ -1,6 +1,6 @@
 # K. Sharsindra Pratheen
-# Advanced Computer Science
-# Monash University
+# 25636626
+# Advanced Computer Science, Monash University
 
 import math
 # Input a decimal number as degrees.
