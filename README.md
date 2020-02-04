@@ -1,21 +1,21 @@
 # Algorithms and Programming Fundamentals
 
 ## Workshop 1
-#### Sum.py
-Program to add two numbers and print them.
 #### DegToRad.py
 Convert a decimal value from Degrees to Radians. 
 Print out cosine of this angle.
+#### Sum.py
+Program to add two numbers and print them.
 #### TempConv.py
 The conversion from F degrees Fahrenheit to C degrees Celsius.
 
 ## Workshop 2
 #### AvgList.py
 Calculate the average of a list of numbers, received one at a time.
-#### FindList.py
-Find a given number in a list of numbers, received one at a time.
 #### CoinToss.py
 Write a program that takes a number n as input from the user and simulates n coin flips and print the total number of heads and the total number of tails. Calculate the ratio of heads to the total coin flips.
+#### FindList.py
+Find a given number in a list of numbers, received one at a time.
 
 ## Workshop 3
 
