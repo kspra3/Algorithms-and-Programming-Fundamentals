@@ -16,6 +16,19 @@ Calculate the average of a list of numbers, received one at a time.
 Write a program that takes a number n as input from the user and simulates n coin flips and print the total number of heads and the total number of tails. Calculate the ratio of heads to the total coin flips.
 
 ## Workshop 3
+#### ListToTable.py
+List of Lists, Tables and References. Write a program that asks user to input 5 lines of numbers. Your program should represent these lines as a table.
+```
+For example:
+Enter some numbers: 1 2 3 4 5 
+Enter some numbers: 5 6 7 
+Enter some numbers: 1 1 1 1 
+Enter some numbers: 1.5 6 7.5 2 
+Enter some numbers: 0
+[[1, 2, 3, 4, 5], [5, 6, 7], [1, 1, 1, 1], [1.5, 6, 7.5, 2], [0]]
+```
+#### UsingLists.py
+Write a program which simulates the rolling of 1000 dice, by generating a number from 1 to 6, and stores these numbers in a list. Calculate the arithmetic mean of this list.
 
 ## Workshop 4
 
