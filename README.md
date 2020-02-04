@@ -21,11 +21,11 @@ List of Lists, Tables and References. Write a program that asks user to input 5 
 ```
 For example:
 Enter some numbers: 1 2 3 4 5 
-Enter some numbers: 5 6 7 
-Enter some numbers: 1 1 1 1 
-Enter some numbers: 1.5 6 7.5 2 
-Enter some numbers: 0
-[[1, 2, 3, 4, 5], [5, 6, 7], [1, 1, 1, 1], [1.5, 6, 7.5, 2], [0]]
+Enter some numbers: 5 6 7 8 9
+Enter some numbers: 1 1 1 1 1
+Enter some numbers: 1 5 6 7 2 
+Enter some numbers: 0 0 0 0 0
+[[1, 2, 3, 4, 5], [5, 6, 7, 8, 9], [1, 1, 1, 1, 1], [1, 5, 6, 7, 2], [0, 0, 0, 0, 0]]
 ```
 
 ## Workshop 4
