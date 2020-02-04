@@ -1,6 +1,6 @@
 # K. Sharsindra Pratheen
-# Advanced Computer Science
-# Monash University
+# 25636626
+# Advanced Computer Science, Monash University
 
 # Add two numbers and display result on the screen.
 # num1 and num2 are obtained from the user.
