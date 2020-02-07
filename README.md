@@ -29,6 +29,14 @@ Enter some numbers: 0 0 0 0 0
 ```
 
 ## Workshop 4
+#### GraphAdjList.py
+One way of storing a graph is as an adjacency list, that is, for each vertex we store a list of vertices adjacent to it. For this task you can assume the vertices are numbered 0,1,2,...,n−1 where n ≥ 1. Write a program that takes as input the number of vertices, n, and the name of a file containing an edge list representing a graph. Each line of the file has exactly one edge represented by 2 vertices.Your program should read an edge list from the file and store it as an adjacency list. It should print the adjacency list, so that you can check that you have read the file correctly.
+```
+For example:
+Enter value for n: 4
+Enter the filename: testGraph.txt
+[[1, 2], [0, 2, 3], [1, 0], [1]]
+```
 
 ## Workshop 5
 
