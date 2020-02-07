@@ -37,6 +37,14 @@ Enter value for n: 4
 Enter the filename: testGraph.txt
 [[1, 2], [0, 2, 3], [1, 0], [1]]
 ```
+#### GraphAdjMat.py
+Another way of storing a graph is as an adjacency matrix, that is, an n × n table A where A[i][ j] = 1 if vertex i is adjacent to vertex j. In this task vertices which represent football teams are numbered 0,1,2,...,n−1, where n is the number of football teams. Two teams are adjacent in the graph, if they have played a match together in 2015. You can assume that two teams played at most one match with each other in 2015. Write a program that takes as input the number of teams, n, and the name of a file containing the edges in the graph. The file is formatted in the same way as the file in the previous tasks. Your program should store the graph as an adjacency matrix. It should print the adjacency matrix, so that you can check that you have read the file correctly.
+```
+For example:
+Enter the number of teams: 4
+Enter the filename: testGraph.txt
+[[0,1,1,0],[1,0,1,1],[1,1,0,0],[0,1,0,0]]
+```
 
 ## Workshop 5
 
