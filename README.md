@@ -47,20 +47,69 @@ Enter the filename: testGraph.txt
 ```
 
 ## Workshop 5
+#### Task1.py
+Write a program that takes as input from the user the name of a file containing the information about the distance a vendor is from Monash and the cost of an item at that vendor. Each line in the file consists of the distance (stored as an integer) followed by a comma followed by the price of that item.
+```
+For example: the file Tiny.txt contains:
+130,266.07
+46,174.14
+169,187.01
+179,488.69
+53,401.53
+128,106.88
+97,398.33
+152,493.87
+20,205.43
+94,248.14
+```
+Your program should create a list of distance/cost pairs with each pair stored in the list. It should print the list, so that you can check that your program has performed correctly.
+```
+Enter name of file:  Tiny.txt
+[[130, 266.07], [46, 174.14], [169, 187.01], [179, 488.69], [53, 401.53], [128, 106.88],
+[97, 398.33], [152, 493.87], [20, 205.43], [94, 248.14]]
+```
+#### Task2.py
+
+You would like to find a vendor close to Monash. Write a function SelectionSort_Distance that takes as input a list of distance/cost pairs and sorts the list in increasing order of distance using Selection Sort. Use this function to modify the program in Task 2, so that the list is printed in increasing order of distance.
+```
+For example: your program may do the following:
+Enter name of file:  Tiny.txt
+20 kms, $205.43
+46 kms, $174.14
+53 kms, $401.53
+94 kms, $248.14
+97 kms, $398.33
+128 kms, $106.88
+130 kms, $266.07
+152 kms, $493.87
+169 kms, $187.01
+179 kms, $488.69
+```
+#### Task3.py
+You would like to be able to sort by price so that you can easily compare the cheapest price of the item compared to the prices of vendors close to Monash. Write a function SelectionSort_Price that takes as input a list of distance/cost pairs and sorts the list in increasing order of price using Selection Sort. Use this function to modify the program in Task 2, so that the list is printed in increasing order of price.
+```
+For example: your program may do the following:
+Enter name of file: Tiny.txt
+128 kms, $106.88
+46 kms, $174.14
+169 kms, $187.01
+20 kms, $205.43
+94 kms, $248.14
+130 kms, $266.07
+97 kms, $398.33
+53 kms, $401.53
+179 kms, $488.69
+152 kms, $493.87
+```
+#### Task4.py
+Modify your program in Task 2, so that it repeatedly asks the user to select from the following options:  
+• Print - prints the list in the order it is currently sorted (or unsorted order if it has not yet been sorted).  
+• Sort1 - sorts the current list in ascending order of distance.  
+• Sort2 - sorts the current list in ascending order of price.  
+• Quit - program stops.
 
 ## Workshop 6
 
-## Workshop 7
-
-## Workshop 8
-
-## Workshop 9
-
-## Workshop 10
-
-## Workshop 11
-
-## Workshop 12
 
 ## Notice of plagiarism
 Copying or plagiarising code is a serious offence and will result in a breach in the Academic Integrity Policy https://www.monash.edu/students/academic/policies/academic-integrity.
