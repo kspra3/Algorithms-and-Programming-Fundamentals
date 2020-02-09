@@ -116,6 +116,63 @@ In progress.
 #### DP.py
 In progress.
 
+## Workshop 8
+#### Task1.py
+Write a program that takes as input from the user the name of a file containing postcode/location information. Each line in the file consists of the postcode followed by a tab followed by a comma-separated list of locations that have that postcode.
+```
+For example: the file Small.txt contains:
+3015    Newport,South Kingsville,Spotswood
+3016    Williamstown
+3018    Altona,Seaholme
+3019    Braybrook,Robinson
+3021    Albanvale,Kealba,Kings Park,St Albans
+```
+Your program should create a list of postcode/location pairs with each pair stored in the list. It should print the list, so that you can check that your program has performed correctly.
+```
+Enter name of file:  Small.txt
+[[3015, 'Newport'], [3015, 'South Kingsville'], [3015, 'Spotswood'], [3016, 'Williamstown'],
+[3018, 'Altona'], [3018, 'Seaholme'], [3019, 'Braybrook'], [3019, 'Robinson'],
+[3021, 'Albanvale'], [3021, 'Kealba'], [3021, 'Kings Park'], [3021, 'St Albans']]
+```
+#### Task2.py
+Modify your program in Task 1 so that it prints the list in a more readable format.
+```
+For example: your program may do the following:
+Enter name of file:  Small.txt
+3015 Newport
+3015 South Kingsville
+3015 Spotswood
+3016 Williamstown
+3018 Altona
+3018 Seaholme
+3019 Braybrook
+3019 Robinson
+3021 Albanvale
+3021 Kealba
+3021 Kings Park
+3021 St Albans
+```
+#### Task3.py
+Modify your program in Task 2 so that your program sorts the list in alphabetical order of location names.
+```
+For example: your program may do the following:
+Enter name of file: Small.txt
+3021  Albanvale
+3018  Altona
+3019  Braybrook
+3021  Kealba
+3021  Kings Park
+3015  Newport
+3019  Robinson
+3018  Seaholme
+3015  South Kingsville
+3015  Spotswood
+3021  St Albans
+3016  Williamstown
+```
+#### Task4.py
+Write a function binarySearch1 that takes as input a list L and a string and uses an iterative binary search to find an entry in the list with a suburb that matches the given string. Your function should return the index in L if the string is found or -1 if it is not found.
+
 
 ## Notice of plagiarism
 Copying or plagiarising code is a serious offence and will result in a breach in the Academic Integrity Policy https://www.monash.edu/students/academic/policies/academic-integrity.
