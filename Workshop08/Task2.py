@@ -1,23 +1,20 @@
-# K. Sharsindra Pratheen
-# 25636626
-# Advanced Computer Science, Monash University
+def printList(T):
+    for i in range (len(T)):
+        print(T[i][0],T[i][1])
 
-fileName = input ("Please enter the filename : ")
-list = []
-data = open(fileName)
+filename = input('Enter name of postcode file: ')
+infile = open(filename,'r')
+contents = infile.readlines()
+infile.close()
 
-for line in data :
-    temp = line.strip("\n") # Remove the new line character at the end.
-    temp = temp.split("\t") # Split the line after the tab.
-    temp[1] = temp[1].split(',') # Split what’s after the tab.
-    list .append(temp)
+data = []
+for i in range (len(contents)):
+    infoStr = contents[i]
+    infoList = infoStr.split('\t')
+    postcode = int(infoList[0])
+    locationList = infoList[1].split(',')
+    for j in range(len(locationList)):
+        locationList[j] = locationList[j].rstrip('\n')
+        data.append([postcode,locationList[j]])
 
-data.close()
-pairedList =[]
-for row in list:
-    for element in range (1 , len(row)):
-        pair = [row[0],row[element]]
-        pairedList.append(pair)
-
-for row in pairedList:
-    print(row[0],row[1])
+printList(data)
