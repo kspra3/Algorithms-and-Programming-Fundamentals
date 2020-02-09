@@ -109,6 +109,12 @@ Modify your program in Task 2, so that it repeatedly asks the user to select fro
 • Quit - program stops.
 
 ## Workshop 6
+#### NQueens.py
+In progress.
+
+## Workshop 7
+#### DP.py
+In progress.
 
 
 ## Notice of plagiarism
