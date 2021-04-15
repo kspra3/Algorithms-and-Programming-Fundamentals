@@ -1,0 +1,4 @@
+How many lectures are there in FIT1045?:A:12,B:24,C:22,D:Another number
+Does P=NP?:A:Yes,B:No,C:Sometimes,D:The answer is not known
+The following Python expression is true:A:true and false,B:not true,C:true or false,D:None
+In a binary tree:A:Every node has 2 children,B:The root node always has 2 children,C:All nodes have at most 2 children,D:All nodes have a child

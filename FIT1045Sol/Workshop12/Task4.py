@@ -1,0 +1,63 @@
+def getQuestions():
+    fileName = input('Enter Question File: ')
+    infile = open(fileName + '.txt','r')
+    contents = infile.readlines()
+    infile.close()
+
+    q = []
+
+    for i in range(len(contents)):
+        lineStr = contents[i].rstrip('\n')
+        lineArr1 = lineStr.split(':',1)
+        lineArr2 = lineArr1[1].split(',')
+        q.append([lineArr1[0]])
+        q[i].extend(lineArr2)
+
+    return q
+
+def getAnswers():
+    fileName = input('Enter Answer File: ')
+    infile = open(fileName + '.txt','r')
+    contents = infile.readlines()
+    infile.close()
+
+    ans = []
+
+    for i in range(len(contents)):
+        lineStr = contents[i].rstrip('\n')
+        ans.append(lineStr)
+
+    return ans
+
+def addQuestion():
+    questions = getQuestions()
+    answers = getAnswers()
+    newQuestion = input('Enter question: ')
+    optionA = input('Enter option A: ')
+    optionB = input('Enter option B: ')
+    optionC = input('Enter option C: ')
+    optionD = input('Enter option D: ')
+    newAnswer = input('Enter answer: ')
+    questions.append([newQuestion,'A:' + optionA, 'B:' + optionB, 'C:' +optionC,'D:' + optionD ])
+    answers.append(newAnswer)
+
+    correct = 0
+    for i in range (len(questions)):
+        print ('-' * 40)
+        for j in range (len(questions[i])):
+            print(questions[i][j])
+            
+        input_answer = input('Answer is: ')
+        if input_answer == answers[i]:
+            correct += 1
+            print('Correct')
+        else:
+            print('Correct answer is',answers[i])
+      
+    print('-' * 40)
+    print('Total correct answers:',correct)
+  
+
+
+
+addQuestion()
